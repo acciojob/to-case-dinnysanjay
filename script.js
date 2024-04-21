@@ -1,5 +1,11 @@
 function toCase(text) {
-  // write your code here
+  
+	let result=" ";
+	if(text[i]===text[i].toUpperCase()){
+	result+=text[i].toLowerCase();
+} else{
+	result+=text[i].toUpperCase(); 
+}
 }
 
 // DO not change the code below
